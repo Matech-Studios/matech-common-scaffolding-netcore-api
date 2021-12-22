@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "3ebd56f7-0ad5-41b9-9e5d-0596e67965a6",
+		"name": "ODataCollection",
+		"description": "Examples of OData usage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Filter Equals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/api/tests?$filter=testProperty eq 'TestPropertyOne'",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"tests"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "testProperty eq 'TestPropertyOne'"
+						}
+					]
+				},
+				"description": "https://localhost:44314/test?$filter=testProperty eq 'TestPropertyOne'"
+			},
+			"response": []
+		},
+		{
+			"name": "OData Pagination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/api/tests?$top=5&$skip=5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"tests"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "5"
+						},
+						{
+							"key": "$skip",
+							"value": "5"
+						}
+					]
+				},
+				"description": "https://localhost:44314/test?$top=5&$skip=5"
+			},
+			"response": []
+		},
+		{
+			"name": "WithCountResults",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/odata/Tests?$count=true&$top=5&$skip=5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"odata",
+						"Tests"
+					],
+					"query": [
+						{
+							"key": "$count",
+							"value": "true"
+						},
+						{
+							"key": "$top",
+							"value": "5"
+						},
+						{
+							"key": "$skip",
+							"value": "5"
+						}
+					]
+				},
+				"description": "https://localhost:44314/odata/Tests?$count=true"
+			},
+			"response": []
+		},
+		{
+			"name": "MetaData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/odata/$metadata#Tests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"odata",
+						"$metadata"
+					],
+					"hash": "Tests"
+				},
+				"description": "https://localhost:44314/odata/$metadata#Tests"
+			},
+			"response": []
+		},
+		{
+			"name": "OrderBy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/odata/Tests?$orderby=Id desc, TestProperty desc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"odata",
+						"Tests"
+					],
+					"query": [
+						{
+							"key": "$orderby",
+							"value": "Id desc, TestProperty desc"
+						}
+					]
+				},
+				"description": "https://localhost:44314/odata/Tests?$orderby=Id desc"
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Contains",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/api/tests?$filter=contains(TestProperty, 'One')",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"tests"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "contains(TestProperty, 'One')"
+						}
+					]
+				},
+				"description": "https://localhost:44314/api/tests?$filter=contains(TestProperty, 'One')"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.Api", "Matech.Common.Scaffolding.Api\Matech.Common.Scaffolding.Api.csproj", "{D6333260-7025-4348-BB98-A828F9893732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.Core", "Matech.Common.Scaffolding.Core\Matech.Common.Scaffolding.Core.csproj", "{271E32AB-F371-4A8D-9C74-52DC7437D41A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.Service", "Matech.Common.Scaffolding.Service\Matech.Common.Scaffolding.Service.csproj", "{EF91173B-97A0-4CF1-A1BF-AF8100966A28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.Repository", "Matech.Common.Scaffolding.Repository\Matech.Common.Scaffolding.Repository.csproj", "{F288D962-1C9B-4BEE-BA10-428E2EFD8B6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8E6FAA74-D108-4B40-8B9B-DED6218EDBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.UnitTests", "Matech.Common.Scaffolding.UnitTests\Matech.Common.Scaffolding.UnitTests.csproj", "{AE80500B-A0D2-4C09-9369-9A198142D7C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matech.Common.Scaffolding.IntegrationTests", "Matech.Common.Scaffolding.IntegrationTests\Matech.Common.Scaffolding.IntegrationTests.csproj", "{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9E38E403-1382-4F86-99EA-06AD9836EE4E}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\ODataCollection.postman_collection.json = SolutionItems\ODataCollection.postman_collection.json
+		SolutionItems\Matech.Common.Middlewares.Lib.dll = SolutionItems\Matech.Common.Middlewares.Lib.dll
+		SolutionItems\Matech.Common.Repositories.Lib.EntityFramework.dll = SolutionItems\Matech.Common.Repositories.Lib.EntityFramework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6333260-7025-4348-BB98-A828F9893732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6333260-7025-4348-BB98-A828F9893732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6333260-7025-4348-BB98-A828F9893732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6333260-7025-4348-BB98-A828F9893732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271E32AB-F371-4A8D-9C74-52DC7437D41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271E32AB-F371-4A8D-9C74-52DC7437D41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271E32AB-F371-4A8D-9C74-52DC7437D41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271E32AB-F371-4A8D-9C74-52DC7437D41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF91173B-97A0-4CF1-A1BF-AF8100966A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF91173B-97A0-4CF1-A1BF-AF8100966A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF91173B-97A0-4CF1-A1BF-AF8100966A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF91173B-97A0-4CF1-A1BF-AF8100966A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F288D962-1C9B-4BEE-BA10-428E2EFD8B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F288D962-1C9B-4BEE-BA10-428E2EFD8B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F288D962-1C9B-4BEE-BA10-428E2EFD8B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F288D962-1C9B-4BEE-BA10-428E2EFD8B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE80500B-A0D2-4C09-9369-9A198142D7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE80500B-A0D2-4C09-9369-9A198142D7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE80500B-A0D2-4C09-9369-9A198142D7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE80500B-A0D2-4C09-9369-9A198142D7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE80500B-A0D2-4C09-9369-9A198142D7C1} = {8E6FAA74-D108-4B40-8B9B-DED6218EDBBA}
+		{A94F6865-3FAA-4AC5-AD20-AFC377A6E84D} = {8E6FAA74-D108-4B40-8B9B-DED6218EDBBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {756C6C3C-E7CF-47B3-A3B0-070F365B7E52}
+	EndGlobalSection
+EndGlobal

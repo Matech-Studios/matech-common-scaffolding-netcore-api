@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Matech.Common.Scaffolding.Api/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.Api/obj
+/Matech.Common.Scaffolding.Core/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.Core/obj
+/Matech.Common.Scaffolding.IntegrationTests/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.IntegrationTests/obj
+/Matech.Common.Scaffolding.Repository/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.Repository/obj
+/Matech.Common.Scaffolding.Service/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.Service/obj
+/Matech.Common.Scaffolding.UnitTests/bin/Debug/netcoreapp3.1
+/Matech.Common.Scaffolding.UnitTests/obj
+
