@@ -18,6 +18,7 @@ Open [https://localhost:5001/api/v1/tests](https://localhost:5001/api/v1/tests) 
 This project is aimed to be deployed in a containerized way.
 
 ```
-docker build -t matech-api .
+docker build -t matech-api-sample .
+docker run -d -p 5001:5001 --name matech-api-sample matech-api-sample
 ```
 
