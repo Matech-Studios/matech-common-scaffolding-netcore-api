@@ -19,6 +19,6 @@ This project is aimed to be deployed in a containerized way.
 
 ```
 docker build -t matech-api-sample .
-docker run -d -p 5001:5001 --name matech-api-sample matech-api-sample
+docker run -d -p 5001:80 --name matech-api-sample matech-api-sample
 ```
 
