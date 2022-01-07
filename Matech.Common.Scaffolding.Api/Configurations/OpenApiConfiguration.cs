@@ -8,7 +8,7 @@ namespace Matech.Common.Scaffolding.Api.Configurations
 {
     public static class OpenApiConfiguration
     {
-        private const string Version = "v2";
+        private const string Version = "v1";
         private const string Scheme = "Bearer";
         private const string SecurityDescription = "Please introduce Bearer Token";
         private const string SecurityTypeName = "Authorization";        
